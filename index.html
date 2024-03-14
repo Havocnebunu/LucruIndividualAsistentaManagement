@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px; /* Adjust the height as needed */
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+</head>
+<body>
+    <div class="gallery">
+        <img src="/images/clatite.jpg" alt="Photo 1">
+        <img src="/images/filee.jpg" alt="Photo 2">
+        <img src="/images/lumanare.jpg" alt="Photo 3">
+        <img src="/images/miere-apicultura-albine.jpg" alt="Photo 4">
+        <img src="/images/mobila.jpg" alt="Photo 5">
+        <img src="/images/morcov.jpg" alt="Photo 6">
+        <img src="/images/placinta.jpg" alt="Photo 7">
+        <img src="/images/sarmale.jpg" alt="Photo 8">
+        <img src="/images/Secrete-recent-descoperite-despre-albine-și-miere-1170x780.jpg" alt="Photo 9">
+        <img src="/images/trandafir.jpg" alt="Photo 10">
+    </div>
+</body>
+</html>
